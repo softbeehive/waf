@@ -1,0 +1,16 @@
+{
+  "version": "4",
+  "specifiers": {
+    "npm:@netlify/edge-functions@^2.11.1": "2.11.1"
+  },
+  "npm": {
+    "@netlify/edge-functions@2.11.1": {
+      "integrity": "sha512-pyQOTZ8a+ge5lZlE+H/UAHyuqQqtL5gE0pXrHT9mOykr3YQqnkB2hZMtx12odatZ87gHg4EA+UPyMZUbLfnXvw=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:@netlify/edge-functions@^2.11.1"
+    ]
+  }
+}

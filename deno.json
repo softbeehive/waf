@@ -1,0 +1,13 @@
+{
+  "imports": {
+    "@netlify/edge-functions": "npm:@netlify/edge-functions@^2.11.1"
+  },
+  "tasks": {},
+  "compilerOptions": {
+    "strict": true
+  },
+  "nodeModulesDir": "auto",
+  "fmt": {
+    "semiColons": false
+  }
+}
