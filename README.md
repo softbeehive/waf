@@ -1,10 +1,10 @@
 # WAF on Netlify Edge Functions
 
 Platforms like Vercel and Cloudflare offer WAF in free plans. Netlify chose to
-limit it to enterprise customers only.
+limit it to enterprise customers only. But there is a workaround.
 
-But there is a workaround. You can implement custom WAF in TypeScript using edge
-functions. Pro plan includes 2M invocations per month.
+You can implement custom WAF in TypeScript using edge functions. Pro plan
+includes 2M invocations per month.
 
 ### Pros
 

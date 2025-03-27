@@ -79,6 +79,7 @@ export default async (request: Request, context: Context) => {
 
 export const config: Config = {
   // Review before deploy
-  path: ["/*"], // Run edge function for every request
   // path: ["/search/*"]
+  path: ["/*"], // Run edge function for every request
+  excludedPath: ["/*.css", "/*.js"], // except for css and js
 }
